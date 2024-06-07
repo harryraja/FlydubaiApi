@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-07T22:01:26 IST" name="Default suite" finished-at="2024-06-07T22:01:40 IST" duration-ms="14103">
+    <groups>
+    </groups>
+    <test started-at="2024-06-07T22:01:26 IST" name="Default test" finished-at="2024-06-07T22:01:40 IST" duration-ms="14103">
+      <class name="tests.ApiTests">
+        <test-method signature="flightSearchTest()[pri:0, instance:tests.ApiTests@55634720]" started-at="2024-06-07T22:01:26 IST" name="flightSearchTest" finished-at="2024-06-07T22:01:29 IST" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="addFlightTest()[pri:0, instance:tests.ApiTests@55634720]" started-at="2024-06-07T22:01:29 IST" name="addFlightTest" finished-at="2024-06-07T22:01:30 IST" depends-on-methods="tests.ApiTests.flightSearchTest" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFlightTest -->
+        <test-method signature="paymentTest()[pri:0, instance:tests.ApiTests@55634720]" started-at="2024-06-07T22:01:30 IST" name="paymentTest" finished-at="2024-06-07T22:01:35 IST" depends-on-methods="tests.ApiTests.addFlightTest" duration-ms="4860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentTest -->
+        <test-method signature="getPciSessionTest()[pri:0, instance:tests.ApiTests@55634720]" started-at="2024-06-07T22:01:35 IST" name="getPciSessionTest" finished-at="2024-06-07T22:01:36 IST" depends-on-methods="tests.ApiTests.paymentTest" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPciSessionTest -->
+        <test-method signature="payLaterTests()[pri:0, instance:tests.ApiTests@55634720]" started-at="2024-06-07T22:01:36 IST" name="payLaterTests" finished-at="2024-06-07T22:01:40 IST" depends-on-methods="tests.ApiTests.getPciSessionTest" duration-ms="4006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payLaterTests -->
+      </class> <!-- tests.ApiTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
